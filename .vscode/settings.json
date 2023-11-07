@@ -1,0 +1,5 @@
+{
+    "git.allowNoVerifyCommit": false,
+    "git.countBadge": "all",
+    "git.decorations.enabled": false
+}

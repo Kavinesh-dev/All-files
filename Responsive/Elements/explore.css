@@ -1,0 +1,38 @@
+.explore-head{
+    font-family: "Roboto";
+    font-weight: 550;
+    font-size: 35px;
+}
+
+.explore-bg{
+    height: 100vh;
+    width: 100vh;
+    background-color: white;
+}
+
+/* .menu-card{
+    height: 350px;
+    width: 290px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: transparent;
+} */
+
+.menu-img{
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.menu-para{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+    padding: 5px;
+    font-family: "Roboto";
+}
+
+.menu-view-link{
+    font-size: 15px;
+    text-align: left;
+}
+

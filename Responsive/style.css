@@ -1,0 +1,239 @@
+#itemstyle1{
+    font-weight: bold;
+    font-size: 15px;
+    font-family: "roboto";
+}
+
+#itemstyle2{
+    font-weight: bold;
+    font-size: 15px;
+    font-family: "roboto";
+}
+
+#itemstyle3{
+    font-weight: bold;
+    font-size: 15px;
+    font-family: "roboto";
+}
+
+#itemstyle4{
+    font-weight: bold;
+    font-size: 15px;
+    font-family: "roboto";
+}
+
+.logo{
+    height: 50px;
+    margin: 5px;
+}
+
+.banner-bg{
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/foodmunch-banner-bg.png");
+    height: 100vh;
+    width: auto;
+    background-size: cover;
+}
+
+.banner-contents{
+    height: 50vh;
+    background-color: transparent;
+    text-align: center;
+}
+
+.banner-heading{
+    color: white;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.banner-paragraph{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+.custom-btn{
+    height: 55px;
+    width: 135px;
+    background-color: rgb(148, 148, 43);
+    color: white;
+    border-width: 0;
+    border-radius: 10px;
+    margin-right: 10px;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+}
+
+.custom-btn2{
+    height: 55px;
+    width: 135px;
+    background-color: transparent;
+    color: white;
+    border-width: 10;
+    border-color: rgb(148, 148, 43);
+    border-radius: 10px;
+    margin-right: 10px;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+}
+
+.head{
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.para{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.wcu-card{
+    border-style: solid;
+    border-color: #e5eaf4;
+}
+
+.wcu-img{
+    height: 150px;
+    
+}
+
+.wcu-head{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.wcu-para{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    padding: 5px;
+}
+
+.explore-head{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.explore-bg{
+    height: 100vh;
+    width: 100vh;
+    background-color: white;
+}
+
+/* .menu-card{
+    height: 350px;
+    width: 290px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: transparent;
+} */
+
+.menu-img{
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.menu-para{
+    font-size: 20px;
+    font-weight: 800;
+    text-align: left;
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.menu-view-link{
+    font-size: 15px;
+    text-align: left;
+}
+
+.healthy-food-section{
+    height: 100vh;
+    width: auto;
+}
+
+.healthy-food-img{
+    width: 260px;
+}
+
+.healthy-food-heading{
+    font-size: 35px;
+    font-family: "Roboto";
+}
+
+.healthy-food-para{
+    font-size: 15px;
+    font-family: "Roboto";
+}
+
+.healthy-food-button{
+    height: 50px;
+    width: 125px;
+    background-color: rgb(148, 148, 43);
+    color: white;
+    border-width: 0;
+    border-radius: 10px;
+    margin-right: 10px;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+}
+
+.dap-img{
+    width: 260px;
+}
+
+.dap-heading{
+    font-size: 35px;
+    font-family: "Roboto";
+}
+
+.dap-paragraph{
+    font-size: 15px;
+    font-family: "Roboto";
+}
+
+.dap-payment-card{
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+}
+
+.dap-button{
+    height: 50px;
+    width: 125px;
+    background-color: rgb(148, 148, 43);
+    color: white;
+    border-width: 0;
+    border-radius: 10px;
+    margin-right: 10px;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+}
+
+.tc-paragraph{
+    font-size: 15px;
+    font-family: "Roboto";
+}
+
+.tc-heading{
+    font-size: 35px;
+    font-family: "Roboto";
+}
+
+.tc-img{
+    width: 220px;
+}
+
+.tc-button{
+    height: 50px;
+    width: 125px;
+    background-color: rgb(148, 148, 43);
+    color: white;
+    border-width: 0;
+    border-radius: 10px;
+    margin-right: 10px;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+}

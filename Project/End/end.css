@@ -1,0 +1,40 @@
+.image-bg{
+    background-image: url("https://i.pinimg.com/originals/7d/1d/65/7d1d65d90672ac004b75fb4842401a3f.jpg");
+    height: 100vh;
+    width: auto;
+    background-size: cover;
+}
+
+.heading{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+.carousel-bg{
+    height: 30vh;
+    width: 30vw;
+    margin-left: 520px;
+    margin-top: 5px;
+}
+
+.carousel-card{
+    background-image: linear-gradient(black,white);
+}
+
+.carousel-heading{
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+    color: white;
+}
+
+.carousel-paragraph{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    padding: 10px;
+}

@@ -1,0 +1,46 @@
+.bg-image{
+    background-image: url("https://images.pexels.com/photos/919073/pexels-photo-919073.jpeg?cs=srgb&dl=pexels-albin-berlin-919073.jpg&fm=jpg");
+    background-size: cover;
+    height: 110vh;
+    width: 100vw;
+}
+
+.head{
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+}
+
+.card-head{
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+    padding: 2px;
+}
+
+.middle-card{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.74), grey);
+    height: 20vh;
+    width: 1000px;
+    text-align: center;
+    margin-top: 25px;
+    margin-left: 250px;
+    border-radius: 15px;
+}
+
+.card-para{
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 700;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.img{
+    height: 120px;
+    margin: 10px;
+    border-radius: 5px;
+}

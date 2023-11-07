@@ -1,0 +1,41 @@
+.top-background{
+    background-color: #e4f9f5;
+    background-size: cover;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container {
+    float: right; /* This will float the container and its content to the right */
+    margin-left: 10px; /* You can adjust the margin as needed */
+   
+}
+
+.top-img{
+    height: 100px;
+    margin-left: 450px;
+}
+
+
+.title-text {
+    margin: 0;
+    text-align: center;
+    
+}
+
+h1{
+    color: #66bfbf;
+    font-size: 5.625rem;
+    font-family: "Sacramento", cursive;
+}
+
+h2 {
+    color: #66bfbf;
+}
+
+.text-container{
+   text-align:end ;
+}

@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+    <title>Influence Summit</title>
+  </head>
+  <body>
+
+    <div id="section1" class="background">
+      <div class="card d-flex flex-column justify-content-start">
+        <h1 class="heading">DARK AGENTS</h1>
+        <p class="paragraph">Explore tales of triumph over challenges,
+          and unlock your own potential through their inspiring
+          stories!</p>
+        <button class="button button1" onclick="display('section2')">SHOW THEM</button>
+      </div>
+    </div>
+    <div id="section2" class="background-container">
+      <div class="celebrity-card-heading1">
+        <h1>Famous Influencers!</h1>
+      </div>
+      <div class="celebrity-card d-flex flex-row justify-content-end"
+        onclick="display('section3')">
+        <div>
+          <h2 class="celebrity-card-heading">Andrew Tate</h2>
+          <p class="celebrity-card-paragraph">Emory Andrew Tate III (born
+            1 December 1986) is an
+            American-British media personality, businessman, and
+            former
+            professional kickboxer. Washington, D.C., U.S</p>
+        </div>
+        <div>
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1vpDe6ldKlZEAcEtVoR_F30kcf5Igpi6t_w&usqp=CAU"
+            class="celebrity-image" />
+        </div>
+      </div>
+
+      <div class="celebrity-card d-flex flex-coloum justify-content-end">
+        <div onclick="display('section4')">
+          <h2 class="celebrity-card-heading">Jordan B Peterson</h2>
+          <p class="celebrity-card-paragraph">Jordan Bernt Peterson (born 12
+            June 1962) is a Canadian
+            psychologist, author, and media commentator. He began to
+            receive widespread attention in the late 2010s for his
+            views on cultural and political issues, often described
+            as conservative.</p>
+        </div>
+        <div>
+          <img
+            src="https://www.timeshighereducation.com/sites/default/files/styles/the_breaking_news_image_style/public/the040419_p16_peterson.jpg?itok=13lrkbaF"
+            class="celebrity-image" />
+        </div>
+      </div>
+
+      <div class="celebrity-card d-flex flex-coloum justify-content-end"
+        onclick="display('section5')">
+        <div>
+          <h2 class="celebrity-card-heading">David Goggins</h2>
+          <p class="celebrity-card-paragraph">David Goggins is a Retired Navy
+            SEAL and the only member
+            of the U.S. Armed Forces to complete SEAL training, Army
+            Ranger School, and Air Force Tactical Air Controller
+            training.</p>
+        </div>
+        <div>
+          <img
+            src="https://nationaltoday.com/wp-content/uploads/2022/10/456840964-min-1200x834.jpg"
+            class="celebrity-image" />
+        </div>
+      </div>
+
+      <div class="celebrity-card d-flex flex-coloum justify-content-end"
+        onclick="display('section6')">
+        <div>
+          <h2 class="celebrity-card-heading">Tristan Tate</h2>
+          <p class="celebrity-card-paragraph">Tristan Tate is a two-time
+            European Kickboxing champion,
+            an internet celebrity, and more famously known for being
+            the brother of controversial influencer and four-time
+            world champion kickboxer Andrew Tate</p>
+        </div>
+        <div>
+          <img
+            src="https://allexamreview.com/wp-content/uploads/2023/06/Tristan-Tate.jpg"
+            class="celebrity-image" />
+        </div>
+
+      </div>
+      <button type="button" class="btn btn-primary detailed-button-1"
+        onclick="display('section1')">Go Back</button>
+    </div>
+
+    <div id="section3" class="bg-image">
+      <div class="heading-top">
+        <h1>Detailed View</h1>
+      </div>
+
+      <div id="AndrewTate" class="carousel slide carousel-card"
+        data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#AndrewTate" data-slide-to="0"
+            class="active"></li>
+          <li data-target="#AndrewTate" data-slide-to="1"></li>
+          <li data-target="#AndrewTate" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="https://content.api.news/v3/images/bin/cc3801db733aed61c4436a8f50ee6233?width=1280"
+              class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://cdn-wp.thesportsrush.com/2023/04/9b29629e-untitled-design-2023-04-19t112058.305.jpg"
+              class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://s3-eu-west-2.amazonaws.com/photos.thearticle.com/app/production/articles/5074/andrew-tate-and-the-incelislamist-nexus.jpg"
+              class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#AndrewTate"
+          role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#AndrewTate"
+          role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+        <div class="main-card">
+          <h1 class="card-heading">Andrew Tate</h1>
+          <p class="paragraph-carousel">Tate began practising kickboxing in 2005
+            and gained his first championship in 2009. He attracted wider
+            attention in 2016 when he appeared on the British reality show Big
+            Brother. He was removed from the show after a video emerged of Tate
+            repeatedly striking a woman with a belt; the two later stated the
+            act was consensual. He began offering paid courses[when?] and
+            memberships through his website and rose to fame as an internet
+            celebrity, promoting an "ultra-masculine, ultra-luxurious lifestyle".
+            Tate's misogynistic commentary has resulted in his suspension from
+            various social media platforms.</p>
+        </div>
+        <button type="button" class="btn btn-primary detailed-button"
+          onclick="display('section2')">Go Back</button>
+      </div>
+    </div>
+
+    <div id="section4" class="bg-image">
+      <div class="heading-top">
+        <h1>Detailed View</h1>
+      </div>
+
+      <div id="JordanPeterson" class="carousel slide carousel-card"
+        data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#JordanPeterson" data-slide-to="0"
+            class="active"></li>
+          <li data-target="#JordanPeterson" data-slide-to="1"></li>
+          <li data-target="#JordanPeterson" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="https://phantom-marca.unidadeditorial.es/d23eed9ee8851ecfea1c0a72ad0be7b4/resize/828/f/jpg/assets/multimedia/imagenes/2023/08/24/16928895651284.jpg"
+              class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://static.foxnews.com/foxnews.com/content/uploads/2020/02/Jordan-Peterson-Getty.jpg"
+              class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://www.timeshighereducation.com/sites/default/files/the040419_p16_peterson.jpg"
+              class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#JordanPeterson"
+          role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#JordanPeterson"
+          role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+        <div class="main-card">
+          <h1 class="card-heading">Jordan Peterson</h1>
+          <p class="paragraph-carousel">Born and raised in Alberta, Peterson
+            obtained bachelor's degrees in political science and psychology from
+            the University of Alberta and a Ph.D. in clinical psychology from
+            McGill University. After researching and teaching at Harvard
+            University, he returned to Canada in 1998 and became a professor of
+            psychology at the University of Toronto. In 1999, he published his
+            first book, Maps of Meaning: The Architecture of Belief, which
+            became the basis for many of his subsequent lectures. The book
+            combined psychology, mythology, religion, literature, philosophy and
+            neuroscience to analyze systems of belief and meaning.
+
+          </p>
+        </div>
+        <button type="button" class="btn btn-primary detailed-button"
+          onclick="display('section2')">Go Back</button>
+      </div>
+    </div>
+
+    <div id="section5" class="bg-image">
+      <div class="heading-top">
+        <h1>Detailed View</h1>
+      </div>
+
+      <div id="DavidGoggins" class="carousel slide carousel-card"
+        data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#DavidGoggins" data-slide-to="0"
+            class="active"></li>
+          <li data-target="#DavidGoggins" data-slide-to="1"></li>
+          <li data-target="#DavidGoggins" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="https://cdn-images-1.medium.com/max/720/1*JlLg2D2_-ViW_AVW0Gh2vA.jpeg"
+              class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://img6.fresherslive.com/latestnews/2023/06/david-goggins-before-and-after-647db7f9047cf52321879-900.webp"
+              class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://findingmastery.com/wp-content/uploads/2017/02/David-Goggins-Ultra-Runner.jpg"
+              class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#DavidGoggins"
+          role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#DavidGoggins"
+          role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+        <div class="main-card">
+          <h1 class="card-heading">David Goggins</h1>
+          <p class="paragraph-carousel">David Goggins (born February 17, 1975)
+            is an American retired United States Navy SEAL, ultramarathon
+            runner, ultra-distance cyclist, triathlete, public speaker, and
+            author of his two memoirs who was inducted into the International
+            Sports Hall of Fame for his achievements in sport.Goggins was
+            also awarded the VFW Americanism award in 2018, one of the most
+            prestigious awards that an individual can achieve for their service
+            in the United States Armed Forces.Goggins also published a New
+            York Times best-seller book titled "Can't Hurt Me".</p>
+        </div>
+        <button type="button" class="btn btn-primary detailed-button"
+          onclick="display('section2')">Go Back</button>
+      </div>
+    </div>
+
+    <div id="section6" class="bg-image">
+      <div class="heading-top">
+        <h1>Detailed View</h1>
+      </div>
+
+      <div id="TristanTate" class="carousel slide carousel-card"
+        data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#TristanTate" data-slide-to="0"
+            class="active"></li>
+          <li data-target="#TristanTate" data-slide-to="1"></li>
+          <li data-target="#TristanTate" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="https://hindustanviralhindi.com/wp-content/uploads/2023/05/image-23.png"
+              class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://wbsche.org/wp-content/uploads/2023/07/Tristan-Tate.png"
+              class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://www.thesun.co.uk/wp-content/uploads/2023/07/2023-andrew-tristan-tate-two-826533493.jpg"
+              class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#TristanTate"
+          role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#TristanTate"
+          role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+        <div class="main-card">
+          <h1 class="card-heading">Tristan Tate</h1>
+          <p class="paragraph-carousel">Tristan Tate is a two-time European
+            Kickboxing champion, an internet celebrity, and more famously known
+            for being the brother of controversial influencer and four-time
+            world champion kickboxer Andrew Tate.Tristan is known for living a
+            flamboyant and lavish lifestyle. A lot of Top-G fans have come out
+            to say Andrew is undoubtedly the Batman of the world we live in
+            today. This was furthermore justified by Andrew in his podcast,
+            which he calls the ‘War Room’, where he states, “All Bruce Wayne has
+            is money; that’s his superpower, and he can fight, and that’s me.”</p>
+        </div>
+        <button type="button" class="btn btn-primary detailed-button"
+          onclick="display('section2')">Go Back</button>
+      </div>
+    </div>
+
+    <script>
+        let sections = document.querySelectorAll('[id^="section"]');
+
+        if (sections.length > 1) {
+          let sectionOne = sections[0];
+          sections.forEach((section) => {
+            if (section !== sectionOne) {
+              section.style.display = "none";
+            }
+          });
+        }
+
+        const display = (sectionId) => {
+  console.log(`Displaying section ${sectionId}`);
+  makeRemainingScreensInvisible(sectionId);
+  let section = document.getElementById(sectionId);
+  section.style.display = "block";
+  window.scrollTo(0, 0);
+};
+
+
+        const makeRemainingScreensInvisible = (sectionId) => {
+          let sections = document.querySelectorAll('[id^="section"]');
+          sections.forEach((section) => {
+            if (section.id !== sectionId) {
+              section.style.display = "none";
+            }
+          });
+        };
+    </script>
+
+  </body>
+</html>

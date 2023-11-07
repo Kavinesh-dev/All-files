@@ -1,0 +1,208 @@
+.background {
+    background-image: url("https://images.hdqwalls.com/download/dark-abstract-black-minimal-4k-q0-2880x1800.jpg");
+    background-size: cover;
+    text-align: center;
+    height: 100vh;
+    width: auto;
+}
+
+.card {
+    background-image: linear-gradient(grey, white);
+    border-radius: 25px;
+    width: 1300px;
+    margin-left: 115px;
+}
+
+.heading {
+    background-image: linear-gradient(rgb(10, 10, 10), rgb(51, 50, 50));
+    font-weight: 900;
+    font-family: sans-serif;
+    font-size: 40px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.paragraph {
+    color: black;
+    font-size: 25px;
+    font-family: 'roboto', sans-serif;
+}
+
+.button {
+    color: white;
+    background: black;
+    padding: 15px 30px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    font-weight: 500;
+    cursor: pointer;
+    margin: 5px;
+    width: 160px;
+    margin-left: 570px;
+
+}
+
+.button1:hover {
+    background-color: rgb(169, 177, 177);
+}
+
+.top-section-bg {
+    background-image: url("https://t3.ftcdn.net/jpg/02/90/72/26/360_F_290722607_fXQ9VHKMPEHSvvPHSMlzJpEcUE5v0GiV.jpg");
+    height: 40vh;
+    width: auto;
+    background-size: 100% 100%;
+}
+
+.top-section-h {
+    color: white;
+    width: 250px;
+    padding: 35px;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'roboto', sans-serif;
+    font-style: italic;
+    text-align: center;
+}
+
+.bottom-bg {
+    background-image: linear-gradient(black, white, black);
+    text-align: center;
+    height: 50vh;
+}
+
+.bottom-card {
+    background-image: linear-gradient(black, white, black);
+    height: 40vh;
+    width: 25vw;
+    margin: 50px;
+    border-radius: 15px;
+}
+
+.h {
+    font-family: "roboto", sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+}
+
+.img {
+    height: 170px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.para {
+    color: white;
+    font-weight: bold;
+}
+
+.bg-image {
+    background-image: url("https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D&w=1000&q=80");
+    height: 110vh;
+    width: 100vw;
+    background-size: cover;
+}
+
+.carousel-card {
+    height: 30vh;
+    width: 30vw;
+    margin-left: 520px;
+    margin-top: 5px;
+}
+
+.heading-top{
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+
+.main-card {
+    background-image: linear-gradient(rgba(13, 13, 14, 0.973), rgba(247, 241, 241, 0.685));
+    height: 50vh;
+    width: 30vw;
+}
+
+.card-heading {
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.paragraph-carousel {
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+
+.background-container {
+    background-image: url("https://cdn.wallpapersafari.com/90/78/AtPnFV.jpg");
+    background-size: cover;
+    height: 115vh;
+    width: auto;
+}
+
+.celebrity-card {
+    /* background-color: white; */
+    background-image: linear-gradient(grey,white);
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 30px;
+    margin-right: 280px;
+    margin-left: 250px;
+    height: 20vh;
+    width: 1000px;
+    text-align: center;
+}
+
+.celebrity-card-heading {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.celebrity-card-heading1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+.celebrity-card-paragraph {
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.celebrity-image {
+    height: 120px;
+    margin: 5px;
+}
+
+.detailed-button{
+    border-radius: 15px;
+    height: 50px;
+    width: 130px;
+    font-weight: bold;
+    font-family: "roboto";
+    text-align: center;
+    margin: 5px;
+    margin-left: 170px;
+}
+
+.detailed-button-1{
+    border-radius: 15px;
+    height: 50px;
+    width: 130px;
+    font-weight: bold;
+    font-family: "roboto";
+    text-align: center;
+    margin: 5px;
+    margin-left: 680px;
+}

@@ -1,0 +1,37 @@
+.head{
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.para{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.wcu-card{
+    border-style: solid;
+    border-color: #e5eaf4;
+}
+
+.wcu-img{
+    height: 150px;
+    
+}
+
+.wcu-head{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.wcu-para{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    padding: 5px;
+}

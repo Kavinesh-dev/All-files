@@ -1,0 +1,48 @@
+.top-section-bg{
+    background-image: url("https://t3.ftcdn.net/jpg/02/90/72/26/360_F_290722607_fXQ9VHKMPEHSvvPHSMlzJpEcUE5v0GiV.jpg");
+    height: 40vh;
+    width: auto;
+    background-size: 100% 100%;
+}
+.top-section-h{
+    color: white;
+    width: 250px;
+    padding: 35px;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'roboto', sans-serif;
+    font-style: italic;
+    text-align: center;
+}
+
+.bottom-bg{
+    background-image: linear-gradient(black, white,black); 
+    text-align: center;
+    height: 50vh;
+}
+
+.bottom-card{
+    background-image: linear-gradient(black, white,black);
+    height:40vh;
+    width: 25vw;
+    margin: 50px;
+    border-radius: 15px;
+}
+
+.h{
+    font-family: "roboto", sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+}
+
+.img{
+    height: 170px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.para{
+    color: white;
+    font-weight: bold;
+}

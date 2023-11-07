@@ -1,0 +1,108 @@
+.bg-img-pg1{
+    background-image: url("https://framerusercontent.com/images/zVGgwmo6ScU3htooSpZHXSZNESc.png");
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+}
+
+.main-container-pg1{
+    align-items: center;
+    height: 80vh;
+    width: 30vw;
+    background-color: transparent;
+    color: white;
+    padding: 5px;
+    }
+
+.img-pg1{
+    width: 121px;
+    padding: 10px;
+}
+
+.main-card{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+    border-right: 25px;
+    position: relative;
+    width: 100%;
+}
+
+.main-card-2{
+    /* align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+    border-right: 25px;
+    position: relative;
+    width: 100%;
+    border-radius: 100px;
+    border-style: solid;
+    border-color: #74642ca2; */
+    border-radius: 20px;
+    border-color: rgba(251, 197, 1, 0.5);;
+    background-color:  #74642ca2;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 4px 20px;
+    width: 50vw;
+    height: 90vh;
+    margin-top: 30px;
+}
+
+.paragraph-content-pg1-card{
+    height: 400px;
+    width: 400pv;
+} 
+
+.megaworkshop-container{
+    border-radius: 100px;
+    border-color: rgba(251, 197, 1, 0.5);;
+    background-color:  #74642ca2;
+    border-style: solid;
+    padding: 4px 20px;
+    width: 170px;
+    height: min-content;
+    margin-top: 10px;
+} 
+
+.heading-pg1{
+    font-size: 10px;
+    font-family: "Roboto", sans-serif;
+    margin-top: 8px;
+}
+
+.megaworkshop-below-container{
+    height: 500px;
+    width: 500px;
+}
+
+.below-heading-container{
+    height: 240px;
+    width: 40vw;
+}
+
+.below-container-heading{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.below-container-paragraph{
+    font-size: 20px;
+    text-align: start;
+}
+
+.below-heading-container-2{
+    height: 150px;
+    width: 40vw;
+}
+
+.below-heading-container2-paragraph{
+    font-size: 18px;
+}

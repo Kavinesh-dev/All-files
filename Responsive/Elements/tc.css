@@ -1,0 +1,29 @@
+.thank-customer-section{
+    height: 40vh;
+    width: auto;
+}
+
+.tc-paragraph{
+    font-size: 15px;
+    font-family: "Roboto";
+}
+
+.tc-heading{
+    font-size: 35px;
+    font-family: "Roboto";
+}
+
+.tc-img{
+    width: 220px;
+}
+
+.tc-button{
+    height: 50px;
+    width: 125px;
+    background-color: rgb(148, 148, 43);
+    color: white;
+    border-width: 0;
+    border-radius: 10px;
+    margin-right: 10px;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+}

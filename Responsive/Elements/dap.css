@@ -1,0 +1,35 @@
+.delivery-and-payment{
+    height: 40vh;
+    width: auto;
+}
+
+.dap-img{
+    width: 260px;
+}
+
+.dap-heading{
+    font-size: 35px;
+    font-family: "Roboto";
+}
+
+.dap-paragraph{
+    font-size: 15px;
+    font-family: "Roboto";
+}
+
+.dap-payment-card{
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+}
+
+.dap-button{
+    height: 50px;
+    width: 125px;
+    background-color: rgb(148, 148, 43);
+    color: white;
+    border-width: 0;
+    border-radius: 10px;
+    margin-right: 10px;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+}
